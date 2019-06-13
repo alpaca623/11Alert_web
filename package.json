@@ -2,17 +2,24 @@
   "name": "11Alert_web",
   "version": "1.0.0",
   "description": "11Alert web page project",
-  "main": "index.js",
+  "main": "init.js",
   "author": "alpaca",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.3",
+    "styled-components": "^4.3.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node init.js"
   }
 }
