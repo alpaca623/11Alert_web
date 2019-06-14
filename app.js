@@ -7,6 +7,7 @@ import routes from "./routes";
 
 import homeRouter from "./routers/homeRouter";
 import boardRouter from "./routers/boardRouter";
+import { localMiddleware } from "./localMiddleware";
 
 const app = express();
 
@@ -17,6 +18,10 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan("dev"));
+
+app.use('/static', express.static('static'));
+
+app.use(localMiddleware);
 
 app.use(routes.home, homeRouter);
 app.use(routes.board, boardRouter);

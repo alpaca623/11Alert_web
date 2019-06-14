@@ -1,3 +1,20 @@
-.header
-    .header__column
-        h2 header!
+header.header
+    .header__wrapper
+        .header__column
+            ul
+                li
+                    i.fas.fa-home
+                li
+                    h3 11단지 커뮤니티
+        .header__column
+            h2 notice text scrolling
+        .header__column
+            ul
+                if !user.isAuthentication
+                    li
+                        a(href="#") 로그인
+                    li
+                        a(href="#") 회원가입
+                else
+                    li
+                        a(href="#") 로그아웃

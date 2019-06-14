@@ -1,0 +1,30 @@
+.header {
+  .header__wrapper {
+    max-width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #74b9ff;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .header__column {
+      i {
+        font-size: 20px;
+        color: white;
+      }
+      ul {
+        display: flex;
+        li:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+      &:nth-child(1) {
+        margin-left: 20px;
+      }
+      &:last-child {
+        width: 100%;
+        justify-self: center;
+      }
+    }
+  }
+}

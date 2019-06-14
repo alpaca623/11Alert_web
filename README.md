@@ -17,6 +17,11 @@
     - 2 : Major update
     - 3 : Miner update
 
+### css class 규칙
+- BEM(Block-Element-Modifier) 사용 [참고사이트](https://www.vobour.com/-css-%EB%94%94%EB%B2%84%EA%B9%85-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%A0%88%EC%95%BD-%ED%95%A0-%EC%88%98%EC%9E%88%EB%8A%94-css-%EB%AA%85%EB%AA%85-%EA%B7%9C%EC%B9%99)/[BEM site](http://getbem.com/naming/)
+
+
+
 # 프로젝트 진행과정 기록
 
 1. express
