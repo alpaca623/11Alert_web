@@ -24,6 +24,6 @@ app.use('/static', express.static('static'));
 app.use(middleware);
 
 app.use(routes.home, homeRouter);
-app.use(routes.board, boardRouter);
+app.use(routes.boardList, boardRouter);
 
 export default app;

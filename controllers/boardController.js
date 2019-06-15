@@ -1,9 +1,11 @@
 export const boardList = (req, res) => {
-    res.render('boardList');
-}
+  res.render("boardList");
+};
 
 export const boardDetail = (req, res) => {
-    console.log(req.params);
-    
-    res.render('boardDetail');
-}
+  res.render("boardDetail");
+};
+
+export const boardWrite = (req, res) => {
+  res.render("boardWrite");
+};
