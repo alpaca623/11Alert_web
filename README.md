@@ -39,3 +39,11 @@
         - express.router 함수 이용 ([링크](https://expressjs.com/en/guide/routing.html))
     - view 구조 설정
     - controller 설정
+5. 화면 시나리오 구현
+    - [ ] 화면 디자인 작업
+    - [ ] 홈 화면 구성 : home
+    - [ ] 회원가입 화면 : join
+    - [ ] 로그인 화면 : login
+    - [ ] 게시글 리스트 화면 : boardList
+    - [ ] 게시글 조회 화면 : boardDetail
+    - [ ] 게시글 작성 화면 : boardWrite

@@ -7,7 +7,7 @@ import routes from "./routes";
 
 import homeRouter from "./routers/homeRouter";
 import boardRouter from "./routers/boardRouter";
-import { localMiddleware } from "./localMiddleware";
+import { middleware } from "./middleware";
 
 const app = express();
 
@@ -21,7 +21,7 @@ app.use(morgan("dev"));
 
 app.use('/static', express.static('static'));
 
-app.use(localMiddleware);
+app.use(middleware);
 
 app.use(routes.home, homeRouter);
 app.use(routes.board, boardRouter);
